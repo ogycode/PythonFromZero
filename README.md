@@ -12,3 +12,6 @@
  - [Functions](https://github.com/ogycode/PythonFromZero/tree/master/src/Functions)
  - [Exceptions](https://github.com/ogycode/PythonFromZero/tree/master/src/Exceptions)
  - [IO (Read/Write filse, content manager)](https://github.com/ogycode/PythonFromZero/tree/master/src/IO)
+ - [Documentation](https://github.com/ogycode/PythonFromZero/tree/master/src/Documentation)
+ - [Modules](https://github.com/ogycode/PythonFromZero/tree/master/src/Modules)
+ - [OOP](https://github.com/ogycode/PythonFromZero/tree/master/src/OOP)
