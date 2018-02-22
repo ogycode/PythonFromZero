@@ -12,16 +12,19 @@ l = [l for l in String]
 
 print("Array: " + str(l))
 
-Array.append(" ")                   #add element to and of list
+#Добавить елемент в конец
+Array.append(" ")                   
 Array.append("2")
 
 print("Array: " + str(Array))
 
-Array.extend(Array)                 #add list to end of list
+#Добавить список в конец списка
+Array.extend(Array)            
 
 print("Array: " + str(Array))
 
-Array.remove("t")                   #remove first entering of element
+#Едалить первое вхождение элемента
+Array.remove("t")    
 Array.remove("5")
 
 print("Array: " + str(Array))

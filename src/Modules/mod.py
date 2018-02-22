@@ -1,21 +1,22 @@
 print("Modules, (c) Verloka Vadim 2018\n\n\n")
 
-import math             #import module math
-import random as rnd    #import module using pseudoname for him
+import math             #Импортирование модуля math
+import random as rnd    #Импорт модуля random и присвоение ему псевдонима rnd
 
 print("math: {}".format(math.e))
 print("rnadom: {}".format(rnd.random()))
 
-from math import cos            #import one method from module
-from math import sin as s       #import one method from module using pseudoname
-from math import (sinh,cosh)    #import few methods from module
+from math import cos            #Импортирование однго методо из модуля
+from math import sin as s       #Импортирование однго методо из модуля
+                                #и присвоение ему псевдонима
+from math import (sinh,cosh)    #Импортирование нескольких методов из модуля
 
 print("cos: {}".format(cos(45)))
 print("sin: {}".format(s(180)))
 print("sinh: {}".format(sinh(180)))
 print("cosh: {}".format(cosh(45)))
 
-from sys import *        #import all methods from module
+from sys import *        #Импортирование всех методов из модуля
 
 print("sys: {}".format(path))
 

@@ -15,3 +15,4 @@
  - [Documentation](https://github.com/ogycode/PythonFromZero/tree/master/src/Documentation)
  - [Modules](https://github.com/ogycode/PythonFromZero/tree/master/src/Modules)
  - [OOP](https://github.com/ogycode/PythonFromZero/tree/master/src/OOP)
+ - [shutil - copy/managed files and directories](https://github.com/ogycode/PythonFromZero/tree/master/src/Shutil)

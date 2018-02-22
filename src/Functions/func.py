@@ -1,19 +1,19 @@
 print("Functions, (c) Verloka Vadim 2018\n\n\n")
 
-#simple function
+#Простая функция
 def Add(x, y):
     return x + y
 
-#function with pre init arguments
+#Функция с аргументами по умолчанию
 def Test1(x,y,z=10,g = 15):
     print("Test1({0},{1},{2},{3}): {0},{1},{2},{3}".format(x,y,z,g))
 
-#function with free count of arguments
+#Функция с любым количеством аргументов
 def Test2(*args):
     for i in args:
         print(i, end=" ")
 
-#funciton with free count of arguments with names
+#Функцяи с любым количеством именованых аргументов
 def Test3(**args):
     for i in args:
         print("{0}: {1}".format(i, args[i]), end=" ")

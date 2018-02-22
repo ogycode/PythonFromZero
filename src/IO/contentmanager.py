@@ -1,6 +1,6 @@
 print("Content manager, (c) Verloka Vadim 2018\n\n\n")
 
-#line using in c#
+#Контент менеджер = конструкция using в с#
 
 print("Start")
 

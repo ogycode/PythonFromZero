@@ -5,9 +5,9 @@ S2 = "string"
 
 print(S1 + " " + S2)
 print(S1 * 2)                       #exampleexample
-print("Lenght - " + str(len(S1)))   #len - get string lenght
+print("Lenght - " + str(len(S1)))   #len - длина строки
 
-print(S1[0])                        #like array
+print(S1[0])                        #строка как масив символов
 print(S1[1])
 print(S1[2])
 print(S1[3])

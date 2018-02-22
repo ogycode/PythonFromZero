@@ -2,7 +2,8 @@ print("Dictionary, (c) Verloka Vadim 2018\n\n\n")
 
 
 
-a = {}              #empty
+#Пустой словарь
+a = {}  
 b = {"key1":1, "key2":2, "key3":3}
 
 print("Empty dict: {}".format(a))
@@ -12,8 +13,11 @@ c = dict([(1,1),(2,2),(3,3)])
 
 print("Dict created by dict: {}".format(c))
 
-d = dict.fromkeys(["a", "b", "c", "d"])                 #keys without value
-e = dict.fromkeys(["a", "b", "c", "d"], 255)            #keys with some value
+#Словарь с ключами без значений
+d = dict.fromkeys(["a", "b", "c", "d"])
+
+#Словарь с ключами которым присвоено какоето одно значение
+e = dict.fromkeys(["a", "b", "c", "d"], 255)
 
 print("Dict form fromkeys #1: {}".format(d))
 print("Dict form fromkeys #2: {}".format(e))

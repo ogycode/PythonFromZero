@@ -13,8 +13,8 @@ d.test2()
 print("P: {}".format(d._P))
 d.GetP()
 
-#print("G: {}".format(d.__G))       #exception
-print("G: {}".format(d._A__G))      #do not throw exception
+#print("G: {}".format(d.__G))       #исключение т.к. метод приватный
+print("G: {}".format(d._A__G))      #однако такая конструкция не кинет исключения
 d.GetG()
 
 f = classB.B()

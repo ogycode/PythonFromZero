@@ -1,8 +1,8 @@
 print("Typle, (c) Verloka Vadim 2018\n\n\n")
 
-#Tuple - size less then in array(list)
-#Tuple - saving for change (non-edit)
-#Tuple - faster then array(list)
+#Кортеж - размер меньше чем у списка и массива
+#Кортеж - нельзя редактирвоать
+#Кортеж - быстрее чем массив или список
 
 array = [1,2,3,4,5]
 tupl = (1,2,3,4,5)
