@@ -18,3 +18,4 @@
  - [shutil - copy/managed files and directories](https://github.com/ogycode/PythonFromZero/tree/master/src/Shutil)
  - [OS.Path - functions on paths](https://github.com/ogycode/PythonFromZero/tree/master/src/OS.Path)
  - [Calendar - functions for works with dates and calendar](https://github.com/ogycode/PythonFromZero/tree/master/src/Calendar)
+ - [OS - functions of operation system](https://github.com/ogycode/PythonFromZero/tree/master/src/OS)
