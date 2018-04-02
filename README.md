@@ -21,3 +21,4 @@
  - [OS - functions of operation system](https://github.com/ogycode/PythonFromZero/tree/master/src/OS)
  - [Itertools - iteration functions](https://github.com/ogycode/PythonFromZero/tree/master/src/Itertools)
  - [Random - random numbers](https://github.com/ogycode/PythonFromZero/tree/master/src/Random)
+ - [Template - format outputing for string](https://github.com/ogycode/PythonFromZero/tree/master/src/Template)
