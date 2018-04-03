@@ -1,4 +1,4 @@
-#print("Argparse, (c) Verloka Vadim 2018\n\n\n")
+print("Argparse, (c) Verloka Vadim 2018\n\n\n")
 
 import argparse
 
@@ -18,9 +18,13 @@ def secondDegree(number):
 def Main():
     parser = argparse.ArgumentParser()
 
+    #Обязательный аргумент
     parser.add_argument("num", help="Числа Фибоначи", type=int)
+
+    #Необязательный аргумент
     parser.add_argument("-sd", "--secondDegree", help="Вторая степень числа Фибоначи", action="store_true")
 
+    #группа уаргементов, можно указываьт при запуске только один из группы
     group = parser.add_mutually_exclusive_group()
     group.add_argument("-s", "--short", help="Компактный вывод", action="store_true")
     group.add_argument("-f", "--full", help="Полный вывод", action="store_true")
